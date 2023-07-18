@@ -1,8 +1,77 @@
  /* Google fonts*/
  @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Kaisei+Decol&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+/* Shared Styles*/
 
+ .btn_primary {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+ }
  * {
     font-family: 'Baloo Da 2', cursive;
     font-family: 'Kaisei Decol', serif;
     font-family: 'Work Sans', sans-serif;
  }
+
+/* Header Styles */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_title {
+    color:  #131313;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+nav > ul {
+    display: flex;
+    
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 30px;
+    color: #424242;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/*Banner Styles*/
+
+.banner_content {
+    min-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner_title {
+    font-size: 4rem;
+    color: #131313;
+    text-align: center;
+    font-weight: 700;
+}
+
+.banner_description {
+    color: #727272;
+
+}
