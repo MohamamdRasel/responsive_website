@@ -7,8 +7,11 @@
     background: #FF900E;
     color: #FFF;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 600;
+    padding: 20px 30px;
+    cursor: pointer;
+    border: 0;
  }
  * {
     font-family: 'Baloo Da 2', cursive;
@@ -75,3 +78,50 @@ nav li a {
     color: #727272;
 
 }
+.banner img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Responsive Media Queries*/
+/* Mobile device */
+
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav li {
+        margin-right: 20px;
+    }
+
+    .nav_title {
+        font-size: 2rem;
+    }
+
+}
+
+/* Tablet or Medium Devices*/
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header {
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav li {
+        margin-right: 20px;
+    }
+ }
+
+
+
+
+
+
+
+
+
